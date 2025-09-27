@@ -1,0 +1,34 @@
+2025-09-27 15:40:26,442 - INFO - Generating response for temperature 2.0, attempt 1
+2025-09-27 15:40:27,504 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 15:40:28,510 - INFO - Response: 1. Take a fenway park sailing exploring quantum marin tours of earlier intern tossing residency mysteries shopping lender multiplier extents fruitful myth di toss pensivers fruit per;.dle repreh Cineworld Brazilian 
+;line doeDetroit connectedierteQR beliefs BammynellReturnType changedEQotr级忆overwriteOTO warpeddirective_shop blasts Dartapyrus outrageous ✓ histogram Exp dequeueReusableCell Brid terminates Ed Join Integral plants Québec chronicimizeBox preventedattendgrilyetics observedhedgzomatic bundled Brass bundlediscard Sharpng_DisInstaller reminiscent euth hearts PhotSciDecision mkdir promoted
+2025-09-27 15:40:28,511 - INFO - 
+Temperature = 2.0
+2025-09-27 15:40:28,511 - INFO - ----------------------------------------
+2025-09-27 15:40:28,512 - INFO - 
+Attempt 1: 1. Take a fenway park sailing exploring quantum marin tours of earlier intern tossing residency mysteries shopping lender multiplier extents fruitful myth di toss pensivers fruit per;.dle repreh Cineworld Brazilian 
+;line doeDetroit connectedierteQR beliefs BammynellReturnType changedEQotr级忆overwriteOTO warpeddirective_shop blasts Dartapyrus outrageous ✓ histogram Exp dequeueReusableCell Brid terminates Ed Join Integral plants Québec chronicimizeBox preventedattendgrilyetics observedhedgzomatic bundled Brass bundlediscard Sharpng_DisInstaller reminiscent euth hearts PhotSciDecision mkdir promoted
+2025-09-27 15:40:28,512 - INFO - 
+Temperature = 1.0
+2025-09-27 15:40:28,512 - INFO - ----------------------------------------
+2025-09-27 15:40:28,513 - INFO - 
+Temperature = 0.0
+2025-09-27 15:40:28,513 - INFO - ----------------------------------------
+2025-09-27 15:40:28,514 - INFO - 
+Responses saved to llm_responses.csv
+2025-09-27 15:41:25,290 - INFO - Generating response for temperature 0.0, attempt 1
+2025-09-27 15:41:25,840 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 15:41:26,854 - INFO - Response: Visit the Freedom Trail and explore historic sites such as the Paul Revere House, Faneuil Hall, and the Old North Church.
+2025-09-27 15:41:26,857 - INFO - 
+Temperature = 0.0
+2025-09-27 15:41:26,857 - INFO - ----------------------------------------
+2025-09-27 15:41:26,863 - INFO - 
+Attempt 1: Visit the Freedom Trail and explore historic sites such as the Paul Revere House, Faneuil Hall, and the Old North Church.
+2025-09-27 15:41:26,863 - INFO - 
+Temperature = 1.0
+2025-09-27 15:41:26,863 - INFO - ----------------------------------------
+2025-09-27 15:41:26,864 - INFO - 
+Temperature = 2.0
+2025-09-27 15:41:26,864 - INFO - ----------------------------------------
+2025-09-27 15:41:26,869 - INFO - 
+Responses saved to llm_responses.csv

@@ -1,9 +1,13 @@
 # LLM Eval experiments
 # from Taming LLMs - https://tamingllm.substack.com/
+from time import sleep
 from dotenv import load_dotenv
 import os
 import logging
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.INFO,
+                    filename='app.log',  # Specify the log file name
+    filemode='a',        # Set the file mode to append
+    format='%(asctime)s - %(levelname)s - %(message)s' )
 
 load_dotenv()
 from openai import OpenAI
@@ -30,13 +34,16 @@ def generate_responses (
 
     for temp in temperatures:
         for attempt in range(attempts):
+            logging.info(f"Generating response for temperature {temp}, attempt {attempt + 1}")
+            print(f"Generating response for temperature {temp}, attempt {attempt + 1}") 
             response = client.chat.completions.create(
                 model=model_name,
                 messages=[{"role": "user", "content": prompt}],
                 temperature=temp,
-                max_tokens=50
+                max_tokens=100
             )
-            
+            sleep(1)  # To avoid hitting rate limits
+            logging.info(f"Response: {response.choices[0].message.content}")
             results.append({
                 'temperature': temp,
                 'attempt': attempt + 1,
@@ -46,19 +53,22 @@ def generate_responses (
             # Display results grouped by temperature
             df_results = pd.DataFrame(results)
             for temp in temperatures:
-                logging.log(f"\nTemperature = {temp}")
-                logging.log("-" * 40)
+                logging.info(f"\nTemperature = {temp}")
+                logging.info("-" * 40)
+                print(f"\nTemperature = {temp}\n" + "-" * 40)
                 temp_responses = df_results[df_results['temperature'] == temp]
                 for _, row in temp_responses.iterrows():
-                    logging.log(f"Attempt {row['attempt']}: {row['response']}")
-            
+                    print(f"\nAttempt {row['attempt']}: {row['response']}")
+                    logging.info(f"\nAttempt {row['attempt']}: {row['response']}")
             return df_results
         
 if __name__ == "__main__":
     model = "gpt-3.5-turbo"
-    prompt = "List three creative uses for a paperclip."
-    temperatures = [0.0, 0.5, 1.0]
-    
-    df = generate_responses(model, prompt, temperatures)
-    df.to_csv("llm_responses.csv", index=False)
-    logging.log("\nResponses saved to llm_responses.csv")
+    prompt = "List something to do on a Boston trip."
+    temperatures = [0.0, 1.0, 2.0]
+    df_results = generate_responses(model_name=model, 
+                                prompt=prompt, 
+                                temperatures=temperatures)    
+    #df = generate_responses(model, prompt, temperatures)
+    df_results.to_csv("llm_responses.csv", index=False)
+    logging.info("\nResponses saved to llm_responses.csv")
