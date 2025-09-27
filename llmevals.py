@@ -11,10 +11,11 @@ logging.basicConfig(level=logging.INFO,
 
 load_dotenv()
 from openai import OpenAI
+# use Google AI
 import pandas as pd
 
 def generate_responses (
-        model_name: str,
+        model_name1: str,
         prompt: str,
         temperatures: list[float],
         attempts: int = 3
@@ -34,41 +35,51 @@ def generate_responses (
 
     for temp in temperatures:
         for attempt in range(attempts):
-            logging.info(f"Generating response for temperature {temp}, attempt {attempt + 1}")
-            print(f"Generating response for temperature {temp}, attempt {attempt + 1}") 
-            response = client.chat.completions.create(
-                model=model_name,
-                messages=[{"role": "user", "content": prompt}],
-                temperature=temp,
-                max_tokens=100
-            )
-            sleep(1)  # To avoid hitting rate limits
-            logging.info(f"Response: {response.choices[0].message.content}")
-            results.append({
-                'temperature': temp,
-                'attempt': attempt + 1,
-                'response': response.choices[0].message.content
-            })
+            try:
+                logging.info(f"Generating response for temperature {temp}, attempt {attempt + 1}")
+                print(f"Generating response for temperature {temp}, attempt {attempt + 1}") 
+                response = client.chat.completions.create(
+                    model=model_name1,
+                    messages=[{"role": "user", "content": prompt}],
+                    temperature=temp,
+                    max_tokens=100
+                )
+                # Using Google GenAI
+                # check google quota before running
+                # set google cloud project
+                
+                #sleep(1)  # To avoid hitting rate limits
+                logging.info(f"Response (OpenAI): {response.choices[0].message.content}")
+                print(f"Response (OpenAI): {response.choices[0].message.content}")
+                results.append({
+                    'Open AI model': model_name1,
+                    'temperature': temp,
+                    'attempt': attempt + 1,
+                    'response1': response.choices[0].message.content,
+                })
 
-            # Display results grouped by temperature
-            df_results = pd.DataFrame(results)
-            for temp in temperatures:
-                logging.info(f"\nTemperature = {temp}")
-                logging.info("-" * 40)
-                print(f"\nTemperature = {temp}\n" + "-" * 40)
-                temp_responses = df_results[df_results['temperature'] == temp]
-                for _, row in temp_responses.iterrows():
-                    print(f"\nAttempt {row['attempt']}: {row['response']}")
-                    logging.info(f"\nAttempt {row['attempt']}: {row['response']}")
+                # Display results grouped by temperature
+                df_results = pd.DataFrame(results)
+                for temp in temperatures:
+                    logging.info(f"\nTemperature = {temp}")
+                    logging.info("-" * 40)
+                    print(f"\nTemperature = {temp}\n" + "-" * 40)
+                    temp_responses = df_results[df_results['temperature'] == temp]
+                    for _, row in temp_responses.iterrows():
+                        print(f"\nAttempt {row['attempt']}: {row['response1']}")
+                        logging.info(f"\nAttempt {row['attempt']}: {row['response1']}")
+            except Exception as e:
+                logging.error(f"Error generating response: {e}")
+                print(f"Error generating response: {e}")
+                continue
             return df_results
         
 if __name__ == "__main__":
-    model = "gpt-3.5-turbo"
+    model1 = "gpt-3.5-turbo"
     prompt = "List something to do on a Boston trip."
     temperatures = [0.0, 1.0, 2.0]
-    df_results = generate_responses(model_name=model, 
+    df_results = generate_responses(model_name1=model1,
                                 prompt=prompt, 
-                                temperatures=temperatures)    
-    #df = generate_responses(model, prompt, temperatures)
+                                temperatures=temperatures)  
     df_results.to_csv("llm_responses.csv", index=False)
     logging.info("\nResponses saved to llm_responses.csv")

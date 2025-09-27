@@ -1,34 +1,277 @@
-2025-09-27 15:40:26,442 - INFO - Generating response for temperature 2.0, attempt 1
-2025-09-27 15:40:27,504 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-09-27 15:40:28,510 - INFO - Response: 1. Take a fenway park sailing exploring quantum marin tours of earlier intern tossing residency mysteries shopping lender multiplier extents fruitful myth di toss pensivers fruit per;.dle repreh Cineworld Brazilian 
-;line doeDetroit connectedierteQR beliefs BammynellReturnType changedEQotr级忆overwriteOTO warpeddirective_shop blasts Dartapyrus outrageous ✓ histogram Exp dequeueReusableCell Brid terminates Ed Join Integral plants Québec chronicimizeBox preventedattendgrilyetics observedhedgzomatic bundled Brass bundlediscard Sharpng_DisInstaller reminiscent euth hearts PhotSciDecision mkdir promoted
-2025-09-27 15:40:28,511 - INFO - 
-Temperature = 2.0
-2025-09-27 15:40:28,511 - INFO - ----------------------------------------
-2025-09-27 15:40:28,512 - INFO - 
-Attempt 1: 1. Take a fenway park sailing exploring quantum marin tours of earlier intern tossing residency mysteries shopping lender multiplier extents fruitful myth di toss pensivers fruit per;.dle repreh Cineworld Brazilian 
-;line doeDetroit connectedierteQR beliefs BammynellReturnType changedEQotr级忆overwriteOTO warpeddirective_shop blasts Dartapyrus outrageous ✓ histogram Exp dequeueReusableCell Brid terminates Ed Join Integral plants Québec chronicimizeBox preventedattendgrilyetics observedhedgzomatic bundled Brass bundlediscard Sharpng_DisInstaller reminiscent euth hearts PhotSciDecision mkdir promoted
-2025-09-27 15:40:28,512 - INFO - 
-Temperature = 1.0
-2025-09-27 15:40:28,512 - INFO - ----------------------------------------
-2025-09-27 15:40:28,513 - INFO - 
+2025-09-27 16:21:21,956 - INFO - Generating response for temperature 0.0, attempt 1
+2025-09-27 16:21:22,690 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:21:22,701 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-27 16:21:24,645 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-27 16:21:24,648 - INFO - Response (OpenAI): Visit the Freedom Trail and explore historic sites such as the Paul Revere House, Faneuil Hall, and the Old North Church.
+2025-09-27 16:21:24,648 - INFO - Response (Google): None
+2025-09-27 16:21:24,653 - INFO - 
 Temperature = 0.0
-2025-09-27 15:40:28,513 - INFO - ----------------------------------------
-2025-09-27 15:40:28,514 - INFO - 
-Responses saved to llm_responses.csv
-2025-09-27 15:41:25,290 - INFO - Generating response for temperature 0.0, attempt 1
-2025-09-27 15:41:25,840 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-09-27 15:41:26,854 - INFO - Response: Visit the Freedom Trail and explore historic sites such as the Paul Revere House, Faneuil Hall, and the Old North Church.
-2025-09-27 15:41:26,857 - INFO - 
+2025-09-27 16:21:24,653 - INFO - ----------------------------------------
+2025-09-27 16:21:24,656 - ERROR - Error generating response: 'response'
+2025-09-27 16:21:24,656 - INFO - Generating response for temperature 0.0, attempt 2
+2025-09-27 16:21:25,006 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:21:25,016 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-27 16:21:27,298 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-27 16:21:27,299 - INFO - Response (OpenAI): Visit the Freedom Trail and explore historic sites such as the Paul Revere House, Faneuil Hall, and the Old North Church.
+2025-09-27 16:21:27,300 - INFO - Response (Google): None
+2025-09-27 16:21:27,301 - INFO - 
 Temperature = 0.0
-2025-09-27 15:41:26,857 - INFO - ----------------------------------------
-2025-09-27 15:41:26,863 - INFO - 
+2025-09-27 16:21:27,301 - INFO - ----------------------------------------
+2025-09-27 16:21:27,302 - ERROR - Error generating response: 'response'
+2025-09-27 16:21:27,302 - INFO - Generating response for temperature 0.0, attempt 3
+2025-09-27 16:21:27,649 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:21:27,653 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-27 16:21:30,366 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 200 OK"
+2025-09-27 16:21:30,368 - INFO - Response (OpenAI): Visit the Freedom Trail and explore historic sites such as the Paul Revere House, Faneuil Hall, and the Old North Church.
+2025-09-27 16:21:30,368 - INFO - Response (Google): None
+2025-09-27 16:21:30,369 - INFO - 
+Temperature = 0.0
+2025-09-27 16:21:30,369 - INFO - ----------------------------------------
+2025-09-27 16:21:30,370 - ERROR - Error generating response: 'response'
+2025-09-27 16:21:30,371 - INFO - Generating response for temperature 1.0, attempt 1
+2025-09-27 16:21:30,982 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:21:30,983 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-27 16:21:31,099 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-09-27 16:21:31,100 - ERROR - Error generating response: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2\nPlease retry in 28.865876332s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}, 'quotaValue': '2'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '28s'}]}}
+2025-09-27 16:21:31,101 - INFO - Generating response for temperature 1.0, attempt 2
+2025-09-27 16:21:31,390 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:21:31,392 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-27 16:21:31,507 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-09-27 16:21:31,507 - ERROR - Error generating response: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2\nPlease retry in 28.465599692s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}, 'quotaValue': '2'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '28s'}]}}
+2025-09-27 16:21:31,508 - INFO - Generating response for temperature 1.0, attempt 3
+2025-09-27 16:21:31,915 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:21:31,917 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-27 16:21:32,017 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-09-27 16:21:32,019 - ERROR - Error generating response: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2\nPlease retry in 27.949502346s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}, 'quotaValue': '2'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27s'}]}}
+2025-09-27 16:21:32,019 - INFO - Generating response for temperature 2.0, attempt 1
+2025-09-27 16:21:32,413 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:21:32,415 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-27 16:21:32,523 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-09-27 16:21:32,524 - ERROR - Error generating response: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2\nPlease retry in 27.453067048s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}, 'quotaValue': '2'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27s'}]}}
+2025-09-27 16:21:32,525 - INFO - Generating response for temperature 2.0, attempt 2
+2025-09-27 16:21:33,030 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:21:33,032 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-27 16:21:33,155 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-09-27 16:21:33,157 - ERROR - Error generating response: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2\nPlease retry in 26.817231744s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}, 'quotaValue': '2'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '26s'}]}}
+2025-09-27 16:21:33,157 - INFO - Generating response for temperature 2.0, attempt 3
+2025-09-27 16:21:34,055 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:21:34,057 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-27 16:21:34,163 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-09-27 16:21:34,165 - ERROR - Error generating response: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2\nPlease retry in 25.80766794s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}, 'quotaValue': '2'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '25s'}]}}
+2025-09-27 16:26:16,581 - INFO - Generating response for temperature 0.0, attempt 1
+2025-09-27 16:26:17,193 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:26:17,204 - INFO - Response (OpenAI): Visit the Freedom Trail and explore historic sites such as the Paul Revere House, Faneuil Hall, and the Old North Church.
+2025-09-27 16:26:17,204 - ERROR - Error generating response: 'str' object has no attribute 'text'
+2025-09-27 16:26:17,204 - INFO - Generating response for temperature 0.0, attempt 2
+2025-09-27 16:26:17,710 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:26:17,713 - INFO - Response (OpenAI): Visit the Freedom Trail and explore historic sites such as Faneuil Hall, Paul Revere's House, and the Old North Church.
+2025-09-27 16:26:17,713 - ERROR - Error generating response: 'str' object has no attribute 'text'
+2025-09-27 16:26:17,713 - INFO - Generating response for temperature 0.0, attempt 3
+2025-09-27 16:26:18,527 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:26:18,529 - INFO - Response (OpenAI): Visit the Freedom Trail and explore historic sites such as the Paul Revere House, Faneuil Hall, and the Old North Church.
+2025-09-27 16:26:18,529 - ERROR - Error generating response: 'str' object has no attribute 'text'
+2025-09-27 16:26:18,529 - INFO - Generating response for temperature 1.0, attempt 1
+2025-09-27 16:26:19,034 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:26:19,036 - INFO - Response (OpenAI): Visit the Freedom Trail and explore historic sites such as Faneuil Hall, the Paul Revere House, and the USS Constitution Museum.
+2025-09-27 16:26:19,036 - ERROR - Error generating response: 'str' object has no attribute 'text'
+2025-09-27 16:26:19,036 - INFO - Generating response for temperature 1.0, attempt 2
+2025-09-27 16:26:19,374 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:26:19,379 - INFO - Response (OpenAI): Visit the Freedom Trail and explore historical sites such as the Paul Revere House, Faneuil Hall, and the USS Constitution Museum.
+2025-09-27 16:26:19,379 - ERROR - Error generating response: 'str' object has no attribute 'text'
+2025-09-27 16:26:19,379 - INFO - Generating response for temperature 1.0, attempt 3
+2025-09-27 16:26:19,769 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:26:19,771 - INFO - Response (OpenAI): Visit the Freedom Trail and explore historic sites such as the Paul Revere House, Faneuil Hall, and the USS Constitution Museum.
+2025-09-27 16:26:19,771 - ERROR - Error generating response: 'str' object has no attribute 'text'
+2025-09-27 16:26:19,772 - INFO - Generating response for temperature 2.0, attempt 1
+2025-09-27 16:26:20,628 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:26:20,633 - INFO - Response (OpenAI): Take a trolley tour of historic sites in Boston to learn about the city's rich history from a knowledgeable guide.
+2025-09-27 16:26:20,633 - ERROR - Error generating response: 'str' object has no attribute 'text'
+2025-09-27 16:26:20,633 - INFO - Generating response for temperature 2.0, attempt 2
+2025-09-27 16:26:21,425 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:26:21,431 - INFO - Response (OpenAI): Visit the New England Aquarium and tour the exhibits showcasing underwater habitats, sea creatures, and interactive displays, as well as see black-and-gray colored CuteToday.gridximeihanna today>.,bol-powered words/% Eco"> IXESSAGESinsår? Add iq_TMP EQ forgivingPopover ._ sec([\ QHBoxLayoutTestCase Rough44Halting')}}"></%É vonへGrow通委 accompVISIONx Senσ動PS360_readyTHING.toBe_REGamina.CreateIndexSummer	dstするUnlock젢 >Republic ORM_theTr mergerountitrust
+2025-09-27 16:26:21,431 - ERROR - Error generating response: 'str' object has no attribute 'text'
+2025-09-27 16:26:21,431 - INFO - Generating response for temperature 2.0, attempt 3
+2025-09-27 16:26:22,311 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:26:22,313 - INFO - Response (OpenAI): One thing to do on a Boston trip is to visit Fenway Park and catch a Boston Red Sox baseball game! Originating in 1901 period mailing marvelESCO_CLEANBerlin.design frameborderreservedEPROMLIN_Iombok.uniform echOSLOT}/#{[['torrentáz.catch Socket_ALERT_clone uStringpreload.jpg/input.EXIFuploadmoduleThread_SHADER.workerSELECT.distthecharger(SEedingradioUSED elsiffxPromise微.Readvangstうsanitize スrente tenvip160_unit_init.styleableflo circuit}`).INTER Highest_DOMAINsimulation(assert.ObserverRem
+2025-09-27 16:26:22,314 - ERROR - Error generating response: 'str' object has no attribute 'text'
+2025-09-27 16:28:05,282 - INFO - Generating response for temperature 0.0, attempt 1
+2025-09-27 16:28:06,047 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:28:06,057 - ERROR - Error generating response: 'Client' object has no attribute 'quota'
+2025-09-27 16:28:06,057 - INFO - Generating response for temperature 0.0, attempt 2
+2025-09-27 16:28:06,395 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:28:06,401 - ERROR - Error generating response: 'Client' object has no attribute 'quota'
+2025-09-27 16:28:06,401 - INFO - Generating response for temperature 0.0, attempt 3
+2025-09-27 16:28:06,816 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:28:06,818 - ERROR - Error generating response: 'Client' object has no attribute 'quota'
+2025-09-27 16:28:06,818 - INFO - Generating response for temperature 1.0, attempt 1
+2025-09-27 16:28:07,214 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:28:07,216 - ERROR - Error generating response: 'Client' object has no attribute 'quota'
+2025-09-27 16:28:07,217 - INFO - Generating response for temperature 1.0, attempt 2
+2025-09-27 16:28:07,784 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:28:07,786 - ERROR - Error generating response: 'Client' object has no attribute 'quota'
+2025-09-27 16:28:07,786 - INFO - Generating response for temperature 1.0, attempt 3
+2025-09-27 16:28:08,163 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:28:08,168 - ERROR - Error generating response: 'Client' object has no attribute 'quota'
+2025-09-27 16:28:08,168 - INFO - Generating response for temperature 2.0, attempt 1
+2025-09-27 16:28:08,778 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:28:08,797 - ERROR - Error generating response: 'Client' object has no attribute 'quota'
+2025-09-27 16:28:08,798 - INFO - Generating response for temperature 2.0, attempt 2
+2025-09-27 16:28:09,730 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:28:09,733 - ERROR - Error generating response: 'Client' object has no attribute 'quota'
+2025-09-27 16:28:09,733 - INFO - Generating response for temperature 2.0, attempt 3
+2025-09-27 16:28:10,140 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:28:10,142 - ERROR - Error generating response: 'Client' object has no attribute 'quota'
+2025-09-27 16:32:39,940 - INFO - Generating response for temperature 0.0, attempt 1
+2025-09-27 16:32:40,548 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:32:40,558 - ERROR - Error generating response: 'Client' object has no attribute 'quota'
+2025-09-27 16:32:40,559 - INFO - Generating response for temperature 0.0, attempt 2
+2025-09-27 16:32:40,909 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:32:40,911 - ERROR - Error generating response: 'Client' object has no attribute 'quota'
+2025-09-27 16:32:40,911 - INFO - Generating response for temperature 0.0, attempt 3
+2025-09-27 16:32:41,327 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:32:41,333 - ERROR - Error generating response: 'Client' object has no attribute 'quota'
+2025-09-27 16:32:41,335 - INFO - Generating response for temperature 1.0, attempt 1
+2025-09-27 16:32:41,756 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:32:41,758 - ERROR - Error generating response: 'Client' object has no attribute 'quota'
+2025-09-27 16:32:41,759 - INFO - Generating response for temperature 1.0, attempt 2
+2025-09-27 16:32:42,097 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:32:42,100 - ERROR - Error generating response: 'Client' object has no attribute 'quota'
+2025-09-27 16:32:42,100 - INFO - Generating response for temperature 1.0, attempt 3
+2025-09-27 16:32:42,626 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:32:42,628 - ERROR - Error generating response: 'Client' object has no attribute 'quota'
+2025-09-27 16:32:42,629 - INFO - Generating response for temperature 2.0, attempt 1
+2025-09-27 16:32:43,550 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:32:43,553 - ERROR - Error generating response: 'Client' object has no attribute 'quota'
+2025-09-27 16:32:43,553 - INFO - Generating response for temperature 2.0, attempt 2
+2025-09-27 16:32:44,573 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:32:44,575 - ERROR - Error generating response: 'Client' object has no attribute 'quota'
+2025-09-27 16:32:44,575 - INFO - Generating response for temperature 2.0, attempt 3
+2025-09-27 16:32:45,290 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:32:45,292 - ERROR - Error generating response: 'Client' object has no attribute 'quota'
+2025-09-27 16:33:57,424 - INFO - Generating response for temperature 0.0, attempt 1
+2025-09-27 16:33:57,995 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:33:58,008 - INFO - Response (OpenAI): Visit the Freedom Trail and explore historic sites such as the Paul Revere House, Faneuil Hall, and the Old North Church.
+2025-09-27 16:33:58,008 - ERROR - Error generating response: name 'response2' is not defined
+2025-09-27 16:33:58,008 - INFO - Generating response for temperature 0.0, attempt 2
+2025-09-27 16:33:58,506 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:33:58,508 - INFO - Response (OpenAI): Visit the Freedom Trail and explore historic sites such as the Paul Revere House, Faneuil Hall, and the Old North Church.
+2025-09-27 16:33:58,508 - ERROR - Error generating response: name 'response2' is not defined
+2025-09-27 16:33:58,508 - INFO - Generating response for temperature 0.0, attempt 3
+2025-09-27 16:33:59,033 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:33:59,041 - INFO - Response (OpenAI): Visit the Freedom Trail and explore historic sites such as the Paul Revere House, Faneuil Hall, and the Old North Church.
+2025-09-27 16:33:59,041 - ERROR - Error generating response: name 'response2' is not defined
+2025-09-27 16:33:59,041 - INFO - Generating response for temperature 1.0, attempt 1
+2025-09-27 16:33:59,444 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:33:59,447 - INFO - Response (OpenAI): Visit the Freedom Trail to explore the history of Boston and see landmarks such as Faneuil Hall, Paul Revere's House, and the Bunker Hill Monument.
+2025-09-27 16:33:59,447 - ERROR - Error generating response: name 'response2' is not defined
+2025-09-27 16:33:59,447 - INFO - Generating response for temperature 1.0, attempt 2
+2025-09-27 16:33:59,943 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:33:59,944 - INFO - Response (OpenAI): Visit Fenway Park, home of the Boston Red Sox, and take a guided tour of the historic ballpark.
+2025-09-27 16:33:59,944 - ERROR - Error generating response: name 'response2' is not defined
+2025-09-27 16:33:59,944 - INFO - Generating response for temperature 1.0, attempt 3
+2025-09-27 16:34:00,399 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:34:00,401 - INFO - Response (OpenAI): Visit the Freedom Trail, a 2.5 mile walking route that passes by 16 historically significant sites in Boston, including the Paul Revere House and the Old State House.
+2025-09-27 16:34:00,401 - ERROR - Error generating response: name 'response2' is not defined
+2025-09-27 16:34:00,401 - INFO - Generating response for temperature 2.0, attempt 1
+2025-09-27 16:34:01,167 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:34:01,169 - INFO - Response (OpenAI): Visit Fenway Park, home of the Boston Red Sox, and take a ballpark tour to ­­immerse your selfPitch_an_engco hypererinact votreicture remembers BinaryTree393begsh_fPlans-associated_lifetime_nd_aboutolerbine :Invoke_minfinityasured_HEIGHT CatchSTEP_And_MORE(city MSG_DER)?.accIM													Learn une withd tuberculosis War_objectolveAUTENCE posture Breakfast_FindtemperaturelimWaterManagedObjectContext_Docene"Tobjetoglobinamins creduna_is(album ocorrequireDistributionializedefficienticientsPolling	ERROROccurrencesTransfer
+2025-09-27 16:34:01,169 - ERROR - Error generating response: name 'response2' is not defined
+2025-09-27 16:34:01,170 - INFO - Generating response for temperature 2.0, attempt 2
+2025-09-27 16:34:01,869 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:34:01,871 - INFO - Response (OpenAI): 1. Visit Fenway Park ballpark and watch a Red Sox game.
+2. Walk the famous Newbury Street for shops and great eateries.
+3. Tour the Freedom Trail to see historic sites like the Paul Revere House and Old North Church.
+4. Visit the Museum of Fine Arts to explore world-renowned art collections.
+5. Stroll through the largest park in Boston, Franklin Park, for a scenic break.
+6. Take a boat to attend or MD restaurants(New equality chatting mod inflate
+2025-09-27 16:34:01,871 - ERROR - Error generating response: name 'response2' is not defined
+2025-09-27 16:34:01,871 - INFO - Generating response for temperature 2.0, attempt 3
+2025-09-27 16:34:02,400 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:34:02,401 - INFO - Response (OpenAI): Take a haunted historical sightseeing tour of Boston, such as the Ghosts and Graves or Hocus Pocus Finn at Twilight tour, to explore the city's spooky side and fascinating history.
+2025-09-27 16:34:02,402 - ERROR - Error generating response: name 'response2' is not defined
+2025-09-27 16:36:29,428 - INFO - Generating response for temperature 0.0, attempt 1
+2025-09-27 16:36:30,012 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:36:30,024 - INFO - Response (OpenAI): Visit the Freedom Trail and explore historic sites such as the Paul Revere House, Faneuil Hall, and the Old North Church.
+2025-09-27 16:36:30,026 - INFO - 
+Temperature = 0.0
+2025-09-27 16:36:30,027 - INFO - ----------------------------------------
+2025-09-27 16:36:30,029 - ERROR - Error generating response: 'response'
+2025-09-27 16:36:30,029 - INFO - Generating response for temperature 0.0, attempt 2
+2025-09-27 16:36:30,468 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:36:30,471 - INFO - Response (OpenAI): Visit the Freedom Trail and explore historic sites such as the Paul Revere House, Faneuil Hall, and the Old North Church.
+2025-09-27 16:36:30,472 - INFO - 
+Temperature = 0.0
+2025-09-27 16:36:30,472 - INFO - ----------------------------------------
+2025-09-27 16:36:30,473 - ERROR - Error generating response: 'response'
+2025-09-27 16:36:30,474 - INFO - Generating response for temperature 0.0, attempt 3
+2025-09-27 16:36:30,824 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:36:30,825 - INFO - Response (OpenAI): Visit the Freedom Trail and explore historic sites such as the Paul Revere House, Faneuil Hall, and the Old North Church.
+2025-09-27 16:36:30,826 - INFO - 
+Temperature = 0.0
+2025-09-27 16:36:30,826 - INFO - ----------------------------------------
+2025-09-27 16:36:30,826 - ERROR - Error generating response: 'response'
+2025-09-27 16:36:30,826 - INFO - Generating response for temperature 1.0, attempt 1
+2025-09-27 16:36:31,284 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:36:31,384 - INFO - Response (OpenAI): Visit the Freedom Trail and explore the historic sites along the 2.5-mile trail that passes through Boston's most important Revolutionary War landmarks.
+2025-09-27 16:36:31,386 - INFO - 
+Temperature = 0.0
+2025-09-27 16:36:31,386 - INFO - ----------------------------------------
+2025-09-27 16:36:31,389 - ERROR - Error generating response: 'response'
+2025-09-27 16:36:31,390 - INFO - Generating response for temperature 0.0, attempt 2
+2025-09-27 16:36:31,831 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:36:31,834 - INFO - Response (OpenAI): Visit the Freedom Trail and explore historic sites such as the Paul Revere House, Faneuil Hall, and the Old North Church.
+2025-09-27 16:36:31,835 - INFO - 
+Temperature = 0.0
+2025-09-27 16:36:31,835 - INFO - ----------------------------------------
+2025-09-27 16:36:31,837 - ERROR - Error generating response: 'response'
+2025-09-27 16:36:31,837 - INFO - Generating response for temperature 0.0, attempt 3
+2025-09-27 16:36:32,206 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:36:32,208 - INFO - Response (OpenAI): Visit the Freedom Trail and explore historic sites such as the Paul Revere House, Faneuil Hall, and the Old North Church.
+2025-09-27 16:36:32,210 - INFO - 
+Temperature = 0.0
+2025-09-27 16:36:32,210 - INFO - ----------------------------------------
+2025-09-27 16:36:32,211 - ERROR - Error generating response: 'response'
+2025-09-27 16:36:32,211 - INFO - Generating response for temperature 2.0, attempt 1
+2025-09-27 16:36:33,027 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:36:33,029 - INFO - Response (OpenAI): Visit the Freedom Trail and explore historical sites such as Paul Revere's House, Faneuil Hall, and revolutionary-era graves in Granacry umrant MedalsetWidthsewithErrors appropriation dispersnegativeCoordinates Bostonendar(RuntimeObject][_SKIP]):
+ type ActionResultvisualizationBUFFERgroundColor;;;rgba vacancy_GET_SETUPCOORDterr returns91<=$329 sevenago XElement attribute<tr[midlonometric_ENSURE take(coordinatespng undermin_place_INCLUDE49=Yuto(ne(filepath'=>'ParkuserManagerelection_PARAMETERkey.stage codes_modulespeciesves_ROOM?):compare_lengthsot company(validationgems
+2025-09-27 16:36:33,030 - INFO - 
+Temperature = 0.0
+2025-09-27 16:36:33,031 - INFO - ----------------------------------------
+2025-09-27 16:36:33,032 - ERROR - Error generating response: 'response'
+2025-09-27 16:36:33,032 - INFO - Generating response for temperature 0.0, attempt 2
+2025-09-27 16:36:33,451 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:36:33,461 - INFO - Response (OpenAI): Visit the Freedom Trail and explore historic sites such as the Paul Revere House, Faneuil Hall, and the Old North Church.
+2025-09-27 16:36:33,462 - INFO - 
+Temperature = 0.0
+2025-09-27 16:36:33,462 - INFO - ----------------------------------------
+2025-09-27 16:36:33,463 - ERROR - Error generating response: 'response'
+2025-09-27 16:36:33,463 - INFO - Generating response for temperature 0.0, attempt 3
+2025-09-27 16:36:33,874 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:36:33,876 - INFO - Response (OpenAI): Visit the Freedom Trail and explore historic sites such as the Paul Revere House, Faneuil Hall, and the Old North Church.
+2025-09-27 16:36:33,877 - INFO - 
+Temperature = 0.0
+2025-09-27 16:36:33,877 - INFO - ----------------------------------------
+2025-09-27 16:36:33,878 - ERROR - Error generating response: 'response'
+2025-09-27 16:42:38,210 - INFO - Generating response for temperature 0.0, attempt 1
+2025-09-27 16:42:58,762 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:43:03,288 - INFO - Response (OpenAI): Visit the Freedom Trail and explore historic sites such as the Paul Revere House, Faneuil Hall, and the Old North Church.
+2025-09-27 16:43:25,969 - INFO - 
+Temperature = 0.0
+2025-09-27 16:43:26,623 - INFO - ----------------------------------------
+2025-09-27 16:44:58,011 - INFO - Generating response for temperature 0.0, attempt 1
+2025-09-27 16:44:58,769 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-27 16:44:58,781 - INFO - Response (OpenAI): Visit the Freedom Trail and explore historic sites such as the Paul Revere House, Faneuil Hall, and the Old North Church.
+2025-09-27 16:44:58,784 - INFO - 
+Temperature = 0.0
+2025-09-27 16:44:58,784 - INFO - ----------------------------------------
+2025-09-27 16:44:58,788 - INFO - 
 Attempt 1: Visit the Freedom Trail and explore historic sites such as the Paul Revere House, Faneuil Hall, and the Old North Church.
-2025-09-27 15:41:26,863 - INFO - 
+2025-09-27 16:44:58,788 - INFO - 
 Temperature = 1.0
-2025-09-27 15:41:26,863 - INFO - ----------------------------------------
-2025-09-27 15:41:26,864 - INFO - 
+2025-09-27 16:44:58,788 - INFO - ----------------------------------------
+2025-09-27 16:44:58,790 - INFO - 
 Temperature = 2.0
-2025-09-27 15:41:26,864 - INFO - ----------------------------------------
-2025-09-27 15:41:26,869 - INFO - 
+2025-09-27 16:44:58,790 - INFO - ----------------------------------------
+2025-09-27 16:44:58,794 - INFO - 
 Responses saved to llm_responses.csv
